@@ -1,0 +1,10 @@
+torch
+transformers
+diffusers
+accelerate
+opencv-python
+numpy
+Pillow
+matplotlib
+controlnet-aux
+safetensors

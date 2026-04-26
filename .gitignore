@@ -1,0 +1,11 @@
+__pycache__/
+.ipynb_checkpoints/
+.cache/
+*.ckpt
+*.safetensors
+*.bin
+*.pt
+*.pth
+depth_gray.png
+depth_color.png
+translated.png
