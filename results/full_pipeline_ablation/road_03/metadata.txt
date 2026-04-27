@@ -1,0 +1,20 @@
+Image ID: road_03
+Input path: /content/image-data-generation/dataset/road_scenes/road_03.jpg
+BLIP-2 caption: a cloudy sky
+
+Manual prompt: Convert image to snowy winter with heavy snowfall. Preserve original road layout, vehicles, object positions, and perspective.
+BLIP prompt: Scene description: a cloudy sky
+. User prompt: Convert image to snowy winter with heavy snowfall. Preserve original road layout, vehicles, object positions, and perspective.
+Negative prompt: blurry, distorted cars, distorted road, bad geometry, low quality, warped perspective, artifacts
+Seed: 42
+Image size: 512x512
+Strength: 0.8
+Guidance scale: 7.5
+Inference steps: 30
+ControlNet conditioning scale: 1.0
+IP-Adapter scale: 0.3
+Full pipeline runtime: 5.62 seconds
+Without IP-Adapter runtime: 5.59 seconds
+Without BLIP-2 runtime: 5.71 seconds
+Without ControlNet runtime: 4.28 seconds
+Baseline runtime: 4.13 seconds
