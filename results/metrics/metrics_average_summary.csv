@@ -1,0 +1,10 @@
+experiment,model,ssim,lpips,clip_score,runtime_seconds,label
+baseline_vs_controlnet,baseline_sd,0.19320170782302717,0.6770385265350342,0.2803843915462494,6.587999999999999,SD vs SD+ControlNet: SD Only
+baseline_vs_controlnet,controlnet_depth,0.24758687703245918,0.5712197065353394,0.26287190318107606,8.956,SD vs SD+ControlNet: SD+ControlNet
+controlnet_vs_ipadapter,controlnet_ipadapter,0.3155019439137445,0.4765331089496613,0.2169199824333191,6.0920000000000005,ControlNet vs IP-Adapter: ControlNet+IP-Adapter
+controlnet_vs_ipadapter,controlnet_only,0.2474307775663674,0.5712435126304627,0.26195513010025023,5.948,ControlNet vs IP-Adapter: ControlNet Only
+full_pipeline_ablation,baseline_sd,0.19277796167696643,0.6870078921318055,0.27485816478729247,4.162000000000001,Ablation Study: SD Only
+full_pipeline_ablation,full_pipeline,0.32692089693929033,0.4567152619361877,0.2156178265810013,5.8020000000000005,Ablation Study: Full Pipeline
+full_pipeline_ablation,without_blip2,0.31429277505901204,0.4754026532173157,0.21642156839370727,5.7379999999999995,Ablation Study: Without BLIP-2
+full_pipeline_ablation,without_controlnet,0.2432236533078961,0.6165167927742005,0.24605463445186615,4.2780000000000005,Ablation Study: Without ControlNet
+full_pipeline_ablation,without_ipadapter,0.2832877672380918,0.5332504868507385,0.2430324971675873,5.642,Ablation Study: Without IP-Adapter
