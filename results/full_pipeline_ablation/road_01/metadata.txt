@@ -1,5 +1,6 @@
 Image ID: road_01
 Input path: /content/image-data-generation/dataset/road_scenes/road_01.jpg
+Reference image: /content/image-data-generation/dataset/reference_conditions/snow_reference.jpg
 BLIP-2 caption: a group of people crossing a street
 Manual prompt: Convert image to snowy winter with heavy snowfall. Preserve original road layout, vehicles, object positions, and perspective.
 BLIP prompt: Scene description: a group of people crossing a street. User prompt: Convert image to snowy winter with heavy snowfall. Preserve original road layout, vehicles, object positions, and perspective.
@@ -11,8 +12,8 @@ Guidance scale: 7.5
 Inference steps: 30
 ControlNet conditioning scale: 1.0
 IP-Adapter scale: 0.3
-Full pipeline runtime: 6.28 seconds
-Without IP-Adapter runtime: 5.58 seconds
-Without BLIP-2 runtime: 5.72 seconds
-Without ControlNet runtime: 4.29 seconds
-Baseline runtime: 4.15 seconds
+Full pipeline runtime: 5.92 seconds
+Without IP-Adapter runtime: 5.44 seconds
+Without BLIP-2 runtime: 5.54 seconds
+Without ControlNet runtime: 4.19 seconds
+Baseline runtime: 4.04 seconds

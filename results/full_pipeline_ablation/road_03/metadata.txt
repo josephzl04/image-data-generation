@@ -1,5 +1,6 @@
 Image ID: road_03
 Input path: /content/image-data-generation/dataset/road_scenes/road_03.jpg
+Reference image: /content/image-data-generation/dataset/reference_conditions/snow_reference.jpg
 BLIP-2 caption: a cloudy sky
 
 Manual prompt: Convert image to snowy winter with heavy snowfall. Preserve original road layout, vehicles, object positions, and perspective.
@@ -13,8 +14,8 @@ Guidance scale: 7.5
 Inference steps: 30
 ControlNet conditioning scale: 1.0
 IP-Adapter scale: 0.3
-Full pipeline runtime: 5.62 seconds
-Without IP-Adapter runtime: 5.59 seconds
-Without BLIP-2 runtime: 5.71 seconds
-Without ControlNet runtime: 4.28 seconds
-Baseline runtime: 4.13 seconds
+Full pipeline runtime: 5.70 seconds
+Without IP-Adapter runtime: 5.73 seconds
+Without BLIP-2 runtime: 5.78 seconds
+Without ControlNet runtime: 4.29 seconds
+Baseline runtime: 4.19 seconds
