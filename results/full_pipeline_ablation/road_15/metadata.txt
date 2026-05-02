@@ -1,0 +1,20 @@
+Image ID: road_15
+Input path: /content/image-data-generation/dataset/source_road_scenes/road_15.jpg
+Reference image: /content/image-data-generation/dataset/weather_reference_conditions/snow_reference_1.jpg
+BLIP-2 caption: a person crossing a street in new
+Manual prompt: Convert image to snowy winter with heavy snowfall. Preserve original road layout, vehicles, object positions, and perspective.
+BLIP prompt: Scene description: a person crossing a street in new. User prompt: Convert image to snowy winter with heavy snowfall. Preserve original road layout, vehicles, object positions, and perspective.
+Negative prompt: blurry, distorted cars, distorted road, bad geometry, low quality, warped perspective, artifacts
+Seed: 42
+Image size: 512x512
+Strength: 0.8
+Guidance scale: 7.5
+Inference steps: 30
+ControlNet conditioning scale: 1.0
+Full pipeline IP-Adapter scale: 0.3
+Without IP-Adapter scale: 0.0
+Full pipeline runtime: 6.15 seconds
+Without IP-Adapter runtime: 6.25 seconds
+Without BLIP-2 runtime: 6.49 seconds
+Without ControlNet runtime: 4.98 seconds
+Baseline runtime: 4.82 seconds

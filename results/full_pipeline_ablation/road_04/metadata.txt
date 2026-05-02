@@ -1,9 +1,9 @@
 Image ID: road_04
-Input path: /content/image-data-generation/dataset/road_scenes/road_04.jpg
-Reference image: /content/image-data-generation/dataset/reference_conditions/snow_reference.jpg
-BLIP-2 caption: an empty road with trees lining both
+Input path: /content/image-data-generation/dataset/source_road_scenes/road_04.jpg
+Reference image: /content/image-data-generation/dataset/weather_reference_conditions/snow_reference_1.jpg
+BLIP-2 caption: a street with a stop sign and
 Manual prompt: Convert image to snowy winter with heavy snowfall. Preserve original road layout, vehicles, object positions, and perspective.
-BLIP prompt: Scene description: an empty road with trees lining both. User prompt: Convert image to snowy winter with heavy snowfall. Preserve original road layout, vehicles, object positions, and perspective.
+BLIP prompt: Scene description: a street with a stop sign and. User prompt: Convert image to snowy winter with heavy snowfall. Preserve original road layout, vehicles, object positions, and perspective.
 Negative prompt: blurry, distorted cars, distorted road, bad geometry, low quality, warped perspective, artifacts
 Seed: 42
 Image size: 512x512
@@ -11,9 +11,10 @@ Strength: 0.8
 Guidance scale: 7.5
 Inference steps: 30
 ControlNet conditioning scale: 1.0
-IP-Adapter scale: 0.3
-Full pipeline runtime: 5.69 seconds
-Without IP-Adapter runtime: 5.69 seconds
-Without BLIP-2 runtime: 5.83 seconds
-Without ControlNet runtime: 4.42 seconds
-Baseline runtime: 4.28 seconds
+Full pipeline IP-Adapter scale: 0.3
+Without IP-Adapter scale: 0.0
+Full pipeline runtime: 6.11 seconds
+Without IP-Adapter runtime: 6.19 seconds
+Without BLIP-2 runtime: 6.44 seconds
+Without ControlNet runtime: 4.89 seconds
+Baseline runtime: 4.77 seconds

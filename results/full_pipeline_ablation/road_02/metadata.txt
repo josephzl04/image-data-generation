@@ -1,9 +1,9 @@
 Image ID: road_02
-Input path: /content/image-data-generation/dataset/road_scenes/road_02.jpg
-Reference image: /content/image-data-generation/dataset/reference_conditions/snow_reference.jpg
-BLIP-2 caption: a car driving down a city street
+Input path: /content/image-data-generation/dataset/source_road_scenes/road_02.jpg
+Reference image: /content/image-data-generation/dataset/weather_reference_conditions/snow_reference_1.jpg
+BLIP-2 caption: a man riding a motorcycle down a
 Manual prompt: Convert image to snowy winter with heavy snowfall. Preserve original road layout, vehicles, object positions, and perspective.
-BLIP prompt: Scene description: a car driving down a city street. User prompt: Convert image to snowy winter with heavy snowfall. Preserve original road layout, vehicles, object positions, and perspective.
+BLIP prompt: Scene description: a man riding a motorcycle down a. User prompt: Convert image to snowy winter with heavy snowfall. Preserve original road layout, vehicles, object positions, and perspective.
 Negative prompt: blurry, distorted cars, distorted road, bad geometry, low quality, warped perspective, artifacts
 Seed: 42
 Image size: 512x512
@@ -11,9 +11,10 @@ Strength: 0.8
 Guidance scale: 7.5
 Inference steps: 30
 ControlNet conditioning scale: 1.0
-IP-Adapter scale: 0.3
-Full pipeline runtime: 5.66 seconds
-Without IP-Adapter runtime: 5.62 seconds
-Without BLIP-2 runtime: 5.74 seconds
-Without ControlNet runtime: 4.29 seconds
-Baseline runtime: 4.18 seconds
+Full pipeline IP-Adapter scale: 0.3
+Without IP-Adapter scale: 0.0
+Full pipeline runtime: 6.02 seconds
+Without IP-Adapter runtime: 6.01 seconds
+Without BLIP-2 runtime: 6.22 seconds
+Without ControlNet runtime: 4.75 seconds
+Baseline runtime: 4.54 seconds

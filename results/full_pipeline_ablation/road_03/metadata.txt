@@ -1,10 +1,10 @@
 Image ID: road_03
-Input path: /content/image-data-generation/dataset/road_scenes/road_03.jpg
-Reference image: /content/image-data-generation/dataset/reference_conditions/snow_reference.jpg
-BLIP-2 caption: a cloudy sky
+Input path: /content/image-data-generation/dataset/source_road_scenes/road_03.jpg
+Reference image: /content/image-data-generation/dataset/weather_reference_conditions/snow_reference_1.jpg
+BLIP-2 caption: a tree with green leaves
 
 Manual prompt: Convert image to snowy winter with heavy snowfall. Preserve original road layout, vehicles, object positions, and perspective.
-BLIP prompt: Scene description: a cloudy sky
+BLIP prompt: Scene description: a tree with green leaves
 . User prompt: Convert image to snowy winter with heavy snowfall. Preserve original road layout, vehicles, object positions, and perspective.
 Negative prompt: blurry, distorted cars, distorted road, bad geometry, low quality, warped perspective, artifacts
 Seed: 42
@@ -13,9 +13,10 @@ Strength: 0.8
 Guidance scale: 7.5
 Inference steps: 30
 ControlNet conditioning scale: 1.0
-IP-Adapter scale: 0.3
-Full pipeline runtime: 5.70 seconds
-Without IP-Adapter runtime: 5.73 seconds
-Without BLIP-2 runtime: 5.78 seconds
-Without ControlNet runtime: 4.29 seconds
-Baseline runtime: 4.19 seconds
+Full pipeline IP-Adapter scale: 0.3
+Without IP-Adapter scale: 0.0
+Full pipeline runtime: 6.25 seconds
+Without IP-Adapter runtime: 6.37 seconds
+Without BLIP-2 runtime: 6.58 seconds
+Without ControlNet runtime: 4.93 seconds
+Baseline runtime: 4.89 seconds
