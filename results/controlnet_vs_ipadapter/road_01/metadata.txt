@@ -1,5 +1,6 @@
 Image ID: road_01
-Input path: /content/image-data-generation/dataset/road_scenes/road_01.jpg
+Input path: /content/image-data-generation/dataset/source_road_scenes/road_01.jpg
+Reference image: /content/image-data-generation/dataset/weather_reference_conditions/snow_reference_1.jpg
 Prompt: Convert image to snowy winter with heavy snowfall. Preserve original road layout, vehicles, object positions, and perspective.
 Negative prompt: blurry, distorted cars, distorted road, bad geometry, low quality, warped perspective
 Seed: 42
@@ -8,6 +9,7 @@ Strength: 0.8
 Guidance scale: 7.5
 Inference steps: 30
 ControlNet conditioning scale: 1.0
-IP-Adapter scale: 0.3
-ControlNet runtime: 5.95 seconds
-ControlNet + IP-Adapter runtime: 6.07 seconds
+ControlNet-only IP-Adapter scale: 0.0
+ControlNet + IP-Adapter scale: 0.3
+ControlNet runtime: 5.87 seconds
+ControlNet + IP-Adapter runtime: 5.29 seconds
