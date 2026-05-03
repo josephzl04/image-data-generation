@@ -1,14 +1,19 @@
 # Image Data Generation using Diffusion Models
 
-This project investigates conditional image translation using pretrained generative models.
+This project investigates conditional image translation for road scene images using pretrained generative models.
+The aim is to generate adverse variants of road scenes while prevising the orginal structure.
 
-## Current Pipeline
 
-1. Input image upload
-2. BLIP-2 caption generation
-3. MiDaS depth estimation
-4. Stable Diffusion + ControlNet generation
-5. IP-Adapter conditioning
+## Pipeline
+
+1. Upload input image and reference image
+2. Enter weather translation prompt
+3. BLIP-2 caption generation
+4. MiDaS depth estimation
+5. ControlNet structure preservation
+6. IP-Adapter reference image conditioning
+7. Stable Diffusion image-to-image generation
+
 
 ## Models
 
