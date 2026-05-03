@@ -1,0 +1,19 @@
+Image ID: road_13
+Input path: /content/image-data-generation/dataset/source_road_scenes/road_13.jpg
+Weather condition: fog
+Reference image: /content/image-data-generation/dataset/weather_reference_conditions/fog_reference_1.jpg
+Reference index: 1
+BLIP-2 caption: a cloudy sky
+
+User prompt: Convert image to a foggy road scene with reduced visibility
+Final prompt: Scene description: a cloudy sky
+. User prompt: Convert image to a foggy road scene with reduced visibility. Preserve original road layout, vehicles, object positions, and perspective.
+Negative prompt: blurry, distorted cars, distorted road, bad geometry, low quality, warped perspective, artifacts
+Seed: 42
+Image size: 512x512
+Strength: 0.8
+Guidance scale: 7.5
+Inference steps: 30
+ControlNet conditioning scale: 1.0
+IP-Adapter scale: 0.3
+Runtime: 6.09 seconds

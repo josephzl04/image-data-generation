@@ -1,0 +1,17 @@
+Image ID: road_10
+Input path: /content/image-data-generation/dataset/source_road_scenes/road_10.jpg
+Weather condition: snow
+Reference image: /content/image-data-generation/dataset/weather_reference_conditions/snow_reference_1.jpg
+Reference index: 1
+BLIP-2 caption: a street with a car and a
+User prompt: Convert image to snowy winter with heavy snowfall
+Final prompt: Scene description: a street with a car and a. User prompt: Convert image to snowy winter with heavy snowfall. Preserve original road layout, vehicles, object positions, and perspective.
+Negative prompt: blurry, distorted cars, distorted road, bad geometry, low quality, warped perspective, artifacts
+Seed: 42
+Image size: 512x512
+Strength: 0.8
+Guidance scale: 7.5
+Inference steps: 30
+ControlNet conditioning scale: 1.0
+IP-Adapter scale: 0.3
+Runtime: 6.05 seconds

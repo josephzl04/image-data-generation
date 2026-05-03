@@ -1,0 +1,17 @@
+Image ID: road_01
+Input path: /content/image-data-generation/dataset/source_road_scenes/road_01.jpg
+Weather condition: rain
+Reference image: /content/image-data-generation/dataset/weather_reference_conditions/rain_reference_2.jpg
+Reference index: 2
+BLIP-2 caption: a city street with cars and buildings
+User prompt: Convert image to a rainy road scene with wet roads and rainfall
+Final prompt: Scene description: a city street with cars and buildings. User prompt: Convert image to a rainy road scene with wet roads and rainfall. Preserve original road layout, vehicles, object positions, and perspective.
+Negative prompt: blurry, distorted cars, distorted road, bad geometry, low quality, warped perspective, artifacts
+Seed: 42
+Image size: 512x512
+Strength: 0.8
+Guidance scale: 7.5
+Inference steps: 30
+ControlNet conditioning scale: 1.0
+IP-Adapter scale: 0.3
+Runtime: 5.75 seconds
