@@ -11,5 +11,5 @@ Inference steps: 30
 ControlNet conditioning scale: 1.0
 ControlNet-only IP-Adapter scale: 0.0
 ControlNet + IP-Adapter scale: 0.3
-ControlNet runtime: 5.36 seconds
-ControlNet + IP-Adapter runtime: 5.45 seconds
+ControlNet runtime: 5.49 seconds
+ControlNet + IP-Adapter runtime: 5.61 seconds
