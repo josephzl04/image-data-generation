@@ -9,4 +9,4 @@ Guidance scale: 7.5
 Inference steps: 30
 ControlNet conditioning scale: 1.0
 Baseline runtime: 5.45 seconds
-ControlNet runtime: 10.20 seconds
+ControlNet runtime: 7.57 seconds
