@@ -6,5 +6,9 @@ opencv-python
 numpy
 Pillow
 matplotlib
+pandas
+scikit-image
+lpips
+gradio
 controlnet-aux
 safetensors
