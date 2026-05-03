@@ -1,10 +1,16 @@
 Model / Configuration,SSIM,LPIPS,CLIP Score,Runtime (s)
-SD vs SD+ControlNet: SD Only,0.193,0.677,0.28,6.588
-SD vs SD+ControlNet: SD+ControlNet,0.248,0.571,0.263,8.956
-ControlNet vs IP-Adapter: ControlNet Only,0.247,0.571,0.262,5.948
-ControlNet vs IP-Adapter: ControlNet+IP-Adapter,0.316,0.477,0.217,6.092
-Ablation Study: SD Only,0.193,0.687,0.275,4.162
-Ablation Study: Without ControlNet,0.243,0.617,0.246,4.278
-Ablation Study: Without IP-Adapter,0.283,0.533,0.243,5.642
-Ablation Study: Without BLIP-2,0.314,0.475,0.216,5.738
-Ablation Study: Full Pipeline,0.327,0.457,0.216,5.802
+SD vs ControlNet: SD Only,0.235,0.658,0.283,5.473
+SD vs ControlNet: SD + ControlNet,0.308,0.531,0.272,7.345
+ControlNet vs IP-Adapter: ControlNet Only,0.308,0.531,0.273,6.317
+ControlNet vs IP-Adapter: ControlNet + IP-Adapter,0.33,0.529,0.279,6.445
+Ablation: SD Only,0.237,0.665,0.285,4.81
+Ablation: Without ControlNet,0.281,0.655,0.277,4.871
+Ablation: Without IP-Adapter,0.327,0.503,0.254,6.309
+Ablation: Without BLIP-2,0.331,0.527,0.277,6.525
+Ablation: Full Pipeline,0.341,0.514,0.266,6.227
+Multi-weather: Snow Ref 1,0.341,0.514,0.266,6.036
+Multi-weather: Snow Ref 2,0.319,0.534,0.258,6.097
+Multi-weather: Rain Ref 1,0.343,0.51,0.294,6.111
+Multi-weather: Rain Ref 2,0.3,0.547,0.279,6.126
+Multi-weather: Fog Ref 1,0.387,0.482,0.269,6.1
+Multi-weather: Fog Ref 2,0.389,0.488,0.265,6.113

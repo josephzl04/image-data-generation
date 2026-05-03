@@ -1,10 +1,16 @@
-experiment,model,ssim,lpips,clip_score,runtime_seconds,label,experiment_order,model_order
-baseline_vs_controlnet,baseline_sd,0.19320170782302717,0.6770385265350342,0.2803843915462494,6.587999999999999,SD vs SD+ControlNet: SD Only,1,1
-baseline_vs_controlnet,controlnet_depth,0.24758687703245918,0.5712197065353394,0.26287190318107606,8.956,SD vs SD+ControlNet: SD+ControlNet,1,2
-controlnet_vs_ipadapter,controlnet_only,0.2474307775663674,0.5712435126304627,0.26195513010025023,5.948,ControlNet vs IP-Adapter: ControlNet Only,2,1
-controlnet_vs_ipadapter,controlnet_ipadapter,0.3155019439137445,0.4765331089496613,0.2169199824333191,6.0920000000000005,ControlNet vs IP-Adapter: ControlNet+IP-Adapter,2,2
-full_pipeline_ablation,baseline_sd,0.19277796167696643,0.6870078921318055,0.27485816478729247,4.162000000000001,Ablation Study: SD Only,3,1
-full_pipeline_ablation,without_controlnet,0.2432236533078961,0.6165167927742005,0.24605463445186615,4.2780000000000005,Ablation Study: Without ControlNet,3,2
-full_pipeline_ablation,without_ipadapter,0.2832877672380918,0.5332504868507385,0.2430324971675873,5.642,Ablation Study: Without IP-Adapter,3,3
-full_pipeline_ablation,without_blip2,0.31429277505901204,0.4754026532173157,0.21642156839370727,5.7379999999999995,Ablation Study: Without BLIP-2,3,4
-full_pipeline_ablation,full_pipeline,0.32692089693929033,0.4567152619361877,0.2156178265810013,5.8020000000000005,Ablation Study: Full Pipeline,3,5
+experiment,model,weather_condition,reference_index,ssim,lpips,clip_score,runtime_seconds,label,experiment_order,model_order,weather_order,reference_order
+baseline_vs_controlnet,baseline_sd,snow,,0.2353794489155519,0.6584388732910156,0.282768968741099,5.473333333333333,SD vs ControlNet: SD Only,1,1,1,0.0
+baseline_vs_controlnet,controlnet_depth,snow,,0.3078669977035332,0.5309913992881775,0.27227429250876106,7.344666666666667,SD vs ControlNet: SD + ControlNet,1,2,1,0.0
+controlnet_vs_ipadapter,controlnet_only,snow,,0.3078716411678605,0.5309665262699127,0.27259609997272494,6.316666666666666,ControlNet vs IP-Adapter: ControlNet Only,2,1,1,0.0
+controlnet_vs_ipadapter,controlnet_ipadapter,snow,,0.33029263174061985,0.528579572836558,0.2791925330956777,6.445333333333334,ControlNet vs IP-Adapter: ControlNet + IP-Adapter,2,2,1,0.0
+full_pipeline_ablation,baseline_sd,snow,,0.23697706766538798,0.6648756583531698,0.2853041956822077,4.8100000000000005,Ablation: SD Only,3,1,1,0.0
+full_pipeline_ablation,without_controlnet,snow,,0.28144664386750456,0.6545282562573751,0.2774760961532593,4.870666666666667,Ablation: Without ControlNet,3,2,1,0.0
+full_pipeline_ablation,without_ipadapter,snow,,0.32715692881349234,0.5034123003482819,0.2536391894022624,6.309333333333333,Ablation: Without IP-Adapter,3,3,1,0.0
+full_pipeline_ablation,without_blip2,snow,,0.33148993921535974,0.5272632519404093,0.2772921045621236,6.525333333333333,Ablation: Without BLIP-2,3,4,1,0.0
+full_pipeline_ablation,full_pipeline,snow,,0.3410694862486042,0.5143734713395437,0.2659568091233571,6.2266666666666675,Ablation: Full Pipeline,3,5,1,0.0
+multi_weather_evaluation,generated_output,snow,1,0.3410694862486042,0.5143734713395437,0.2659568091233571,6.036,Multi-weather: Snow Ref 1,4,1,1,1.0
+multi_weather_evaluation,generated_output,snow,2,0.3189017449076884,0.5337668220202129,0.2576005349556605,6.097333333333333,Multi-weather: Snow Ref 2,4,1,1,2.0
+multi_weather_evaluation,generated_output,rain,1,0.3431194136510599,0.5100197156270345,0.2942008078098297,6.110666666666666,Multi-weather: Rain Ref 1,4,1,2,1.0
+multi_weather_evaluation,generated_output,rain,2,0.2996713217137425,0.5469336171944936,0.279327392578125,6.126,Multi-weather: Rain Ref 2,4,1,2,2.0
+multi_weather_evaluation,generated_output,fog,1,0.38710699562018086,0.48170692722002667,0.2687571426232656,6.1,Multi-weather: Fog Ref 1,4,1,3,1.0
+multi_weather_evaluation,generated_output,fog,2,0.3887661417396359,0.4881109853585561,0.26530619263648986,6.113333333333333,Multi-weather: Fog Ref 2,4,1,3,2.0
