@@ -13,8 +13,8 @@ Inference steps: 30
 ControlNet conditioning scale: 1.0
 Full pipeline IP-Adapter scale: 0.3
 Without IP-Adapter scale: 0.0
-Full pipeline runtime: 6.16 seconds
-Without IP-Adapter runtime: 6.24 seconds
-Without BLIP-2 runtime: 6.45 seconds
-Without ControlNet runtime: 4.88 seconds
-Baseline runtime: 4.81 seconds
+Full pipeline runtime: 6.27 seconds
+Without IP-Adapter runtime: 6.37 seconds
+Without BLIP-2 runtime: 6.62 seconds
+Without ControlNet runtime: 4.92 seconds
+Baseline runtime: 4.90 seconds
