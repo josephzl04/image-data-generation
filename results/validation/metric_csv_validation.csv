@@ -1,0 +1,4 @@
+csv_file,exists,rows,missing_metric_values,columns,expected_columns_present
+metrics_summary.csv,True,225,0,"experiment, image_id, model, weather_condition, reference_index, clip_prompt, ssim, lpips, clip_score, runtime_seconds, output_path",True
+metrics_average_summary.csv,True,15,0,"experiment, model, weather_condition, reference_index, ssim, lpips, clip_score, runtime_seconds, label, experiment_order, model_order, weather_order, reference_order",True
+metrics_report_table.csv,True,15,0,"Model / Configuration, SSIM, LPIPS, CLIP Score, Runtime (s)",True

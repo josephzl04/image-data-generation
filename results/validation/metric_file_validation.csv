@@ -1,0 +1,8 @@
+file,exists,path
+metrics_summary.csv,True,/content/image-data-generation/results/metrics/metrics_summary.csv
+metrics_average_summary.csv,True,/content/image-data-generation/results/metrics/metrics_average_summary.csv
+metrics_report_table.csv,True,/content/image-data-generation/results/metrics/metrics_report_table.csv
+ssim_summary.png,True,/content/image-data-generation/results/metrics/ssim_summary.png
+lpips_summary.png,True,/content/image-data-generation/results/metrics/lpips_summary.png
+clip_score_summary.png,True,/content/image-data-generation/results/metrics/clip_score_summary.png
+runtime_summary.png,True,/content/image-data-generation/results/metrics/runtime_summary.png

@@ -1,0 +1,5 @@
+experiment,expected_runs,actual_runs,count_correct
+baseline_vs_controlnet,15,15,True
+controlnet_vs_ipadapter,15,15,True
+full_pipeline_ablation,15,15,True
+multi_weather_evaluation,90,90,True
