@@ -19,6 +19,6 @@ The aim is to generate adverse variants of road scenes while prevising the orgin
 
 - BLIP-2: Salesforce/blip2-opt-2.7b
 - MiDaS: DPT_Hybrid
-- Stable Diffusion: runwayml/stable-diffusion-v1-5
+- Stable Diffusion: stable-diffusion-v1-5/stable-diffusion-v1-5
 - ControlNet Depth: lllyasviel/sd-controlnet-depth
 - IP-Adapter: h94/IP-Adapter
