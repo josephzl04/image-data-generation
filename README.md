@@ -1,7 +1,7 @@
-# Image Data Generation using Diffusion Models
+# Image Data Generation using a Modular Pipeline
 
-This project investigates conditional image translation for road scene images using pretrained generative models.
-The aim is to generate adverse variants of road scenes while prevising the orginal structure.
+This project investigates image-to-image translation for road scene images using pretrained generative models.
+The aim is to generate adverse weather variants of road scenes while peserving the orginal structure.
 
 
 ## Pipeline
